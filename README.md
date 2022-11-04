@@ -8,3 +8,17 @@
   * 현재 
     * Subject - #e-mail# #name# #phone# #special-request# 
     * Description - #name# #service_name# #worker_name#
+
+## 2022-11-04 Update
+1. Announcement
+    1. You will get your confirmation in 24 hrs by email. If you didn’t get any notice from us, please check your spam box.
+2. Hide Service Cost on Select Menu Booking Window  
+    ![](images/20221104090636-Hide_Service_Cost.png)  
+3. Service Fee Update  
+    ![](images/20221104090719-Service_Fee_Update.png)  
+    * Botox treatment  180/200/220/240
+4. Add Services
+    1. BLEACHING WHOLE HAIR (1 TIME)
+        1. Wed-Sun 10-16
+    2. BLEACHING WHOLE HAIR (2 TIMES)
+        1. Wed-Sun 10-15
