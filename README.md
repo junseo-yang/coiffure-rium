@@ -22,3 +22,37 @@
         1. Wed-Sun 10-16
     2. BLEACHING WHOLE HAIR (2 TIMES)
         1. Wed-Sun 10-15
+
+## 2022-11-20 Update
+1. Add Service
+    1. ROOT BLEACHING with TONER 2hrs 160~230
+    2. Kid's Girl Hair Cut (10-years-old or under) 1hr
+    3. Kid's Boy Hair Cut (10-years-old or under) 1hr
+2. Remove Service
+    1. Men's Scissor cut
+3. Adjust start time and end time
+    1. Marie: 10:00-17:30 Wed-Sat / 10:00-16:00 Sun
+    2. Daniel: 10:00-17:30 Wed-Sat / 10:00-16:00 Sun
+    3. Song Yi: 10:00-17:30 Wed-Sat
+4. Revamp connection
+    1. Marie
+        * Include all service but *Women's Blowdry & Styling*
+        * Connection id 141~180
+    2. Daniel
+        * Include all service but *Women's Blowdry & Styling* and *Women's Balayage, Hightlights, Ombre & Color with Design*
+        * Connection id 181~219
+    3. Song Yi
+        * Include all service but all perms
+        * Special services that replace regular services
+            * Kid's Girl Hair Cut (10-years-old or under) 1hr
+            * Kid's Boy Hair Cut (10-years-old or under) 1hr
+            * Women's Haircut - 1.5hrs
+            * Men's Haircut - 1hrs
+        * Connection id 220~236
+5. Update format in phone input field
+6. Future Update Requirements
+    1. Send text message to customers when bookings have been confirmed
+    2. Domain Address change from k-beautycare => salonrium
+    3. Make booking confirm possible only once in a week
+    4. Add deposit system when booking
+    
