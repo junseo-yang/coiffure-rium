@@ -56,3 +56,60 @@
     3. Make booking confirm possible only once in a week
     4. Add deposit system when booking
     
+## 2023-01-01 Update
+### Schedule
+* Start: 2023-01-04
+* End: Indefinite
+* Details
+    * Song-Yi: Wed-Sat 9-5
+    * Marie & Daniel: Wed-Fri 9-17 / Sat 9-18 / Sun 9-16
+
+### Service
+* Song-Yi
+    * Remove all services but Bang-cut, Root Colour, and Regular Colour
+
+### Sort Service Menu 
+1. Men's Haircut with Marie - 20분
+2. Men's Haircut with Daniel - 30분
+3. Women's Haircut with Marie - 40분
+4. Women's Haircut with Daniel - 1시간
+5. Kid's Cut (Boy/Girl) - 30분
+6. Women's Bangcut - 30분
+7. Women's Wash and Blow Dry/Styling - 30분 / 55$+
+8. Men's Regular Color - 1시간
+9. Men's Bleach and Color - 2시간
+10. Women's Regular Color - 2시간 
+11. Women's Bleach and Color - 3시간
+12. Women's Balayage/Ombre/Highlights - 4시간
+13. Women's Root Color (Styling not Included) - 1시간
+14. Women's Root Bleach without Toner (Styling not Included) - 1시간 30분
+15. Women's Root Bleach with Toner (Styling not Included) - 2시간
+16. Men's Side Down Perm (Hair cut Included)  - 1시간
+17. Men's Wave/Straight Perm (Hair cut Included) - 2시간 / 180-200$
+18. Women's Short Hair Wave/Straight Perm (Chin to Shoulder Length, Hair cut Included) - 3시간 / 285$
+19. Women's Long Hair Wave/Straight Perm (Below Shoulder Length, Hair cut Included) - 4시간 / 330$
+20. Women's Bang Perm - 1시간 30분
+21. Women's Root Volume Perm (Hair cut not Included) - 1시간 30분
+22. Hair Botox Treatment (Hair cut not Included) - 3시간
+
+### Block service
+* 그리구 남자컷트 주말에 막아주세요
+
+## Update Menu 메뉴판 업데이트가 필요해요!
+내가 안적어 놓은건 다 날리면 될거같아, 시술 시간변경도 해야하고!
+
+### 팝업공지
+* 1월 25일부터 2월 7일까지 그리고 2월 10일부터 2월 21일까지 휴가공지
+
+### Change Domain Name Server
+* Previous setting
+    * Setup Type: Bluehost
+Name Servers
+IP Address
+ns1.bluehost.com
+
+162.159.24.80
+
+ns2.bluehost.com
+
+162.159.25.175
