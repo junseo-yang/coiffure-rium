@@ -113,3 +113,96 @@ ns1.bluehost.com
 ns2.bluehost.com
 
 162.159.25.175
+
+## Deposit/Payment 
+* https://stripe.com/docs/keys#create-api-secret-key
+* https://dashboard.stripe.com/account/onboarding/summary
+* https://www.youtube.com/watch?v=ZChgOLf3I0U&ab_channel=AppSumo%2FProducts
+* https://easy-appointments.net/documentation/paypal-setup-tutorial/
+
+## Requirements
+* Appointment Booking/Cancel
+    * 
+* Vacation
+* Admin Dashboard
+* Temp Block - Timely/Daily
+* Email/SMS Notification
+* Gmail/Google calendar Sync
+* Payment/Deposit
+    * Transaction Fee
+
+Vue React Angular
+
+Firebase AWS 
+
+## Browsing Tech Stacks
+1. Ruby on rails
+2. MEAN/MERN/MEVN
+    1. MongoDB (NoSQL database)
+    2. Express.js backend web framework
+    3. Angular.js/React.js/Vue.js frontend framework
+    4. Node.js server-side JavaScript
+3. ASP.NET
+    1. ASP.NET MVC – Standard model-view-controller framework
+    2. IIS – Microsoft’s web server
+    3. Angular frontend framework with TypeScript
+    4. SQL Server – Microsoft’s enterprise database
+    5. Microsoft Azure – A favorite of most .NET developers
+4. LAMP
+    1. Linux (operating system)
+    2. Apache (HTTP server)
+    3. MySQL (relational database management)
+    4. PHP (programming language, it can also be Perl or Python)
+5. Python
+6. Java
+### Reference
+* https://codeless.co/web-development-stacks/
+* https://github.com/justalever/bookme_demo
+* https://web-crunch.com/posts/event-scheduling-app-rails-7
+* https://rubygems.org/search?query=appointments
+* https://github.com/elevation/event_calendar
+* https://github.com/benignware/schedulable
+
+## Reference Websites
+https://www.fresha.com/a/in-salon-lasalle-montreal-6840-boul-newman-xmbym8am
+https://easy-appointments.net/extension-paypal-example/
+
+## 2023-04-17 Update
+1. 홈페이지 서비스 Price Update
+2. Marie 컷트 시간 변경(여자컷-1.5h 남자컷-1h) ✅
+3. Daniel 일요일 남자,여자 커트 막기 ✅
+
+## 2023-04-24 Todo
+1. Easy Appointments Service Price/Time Update
+2. Perm or color예약 할때 self questionnaire
+    * Have you ever bleached before? If your hair is bleached, you are not a good candidate for the perm service, your hair will be severely damaged to melt.
+    * Have you ever black or darker color before? It will be affecting your color service if you want to lighten your hair. It takes more time and money.
+3. 예약 리마인드 이메일 그리고 문자 24시간 전에 발송 Appointment reminder e-mail and text message at before 24 hours 
+    * If you are late for the appointment time, your appointment will be automatically cancelled. (Please be on time to respect other’s time)
+        * Ex) Your total service time is 13:00-15:00. You should be at the salon at 13:00.
+4. Security deposit equivalent with 30% of your service charge is non-refundable. Once you Deposit your appointment is confirmed, if you want to reschedule let us know at least 48hours before your appointment. (by calling) 
+    * Deposit policy
+        * FR:Les acomptes ne sont pas remboursables, vous pouvez reporter votre rendez-vous avant 48 heures et votre acompte sera transféré sur votre future réservation. Si vous ne pouvez pas reporter votre rendez-vous, veuillez nous contacter au moins 48 heures avant votre rendez-vous.
+        * ENG:Deposits are non-refundable, you can reschedule your appointment before 48 hours and your deposit will be transferred over to your future booking. If you are unable to reschedule, please contact us at least 48 hours before your appointment.
+
+## Deposit and Payment with Paypal
+1. Change Service Fee to Deposit
+    1. Can we skip $0 payment?: 🟢
+    2. What if we have multiple range of service fees?
+2. Full Payment?
+
+## Pricing
+* Paypal: 2.9% + 0.3 CAD
+* Google Domain: $17/year
+
+## PoC
+### Ruby
+#### App Engine
+* https://cloud.google.com/appengine/docs/flexible/ruby/create-app
+* Todo: Create another GCP Project and retry the deployment of the sample app
+* Google Calender wrapper - Just block the unavailability 
+#### Reference
+* https://github.com/justalever/bookme_demo
+* https://github.com/icalendar/icalendar
+* https://www.ruby-toolbox.com/categories/calendars
+* https://web-crunch.com/posts/event-scheduling-app-rails-7
