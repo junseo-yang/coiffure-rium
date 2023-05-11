@@ -206,3 +206,14 @@ https://easy-appointments.net/extension-paypal-example/
 * https://github.com/icalendar/icalendar
 * https://www.ruby-toolbox.com/categories/calendars
 * https://web-crunch.com/posts/event-scheduling-app-rails-7
+
+## 2023-05-11 Update
+* Temp opening
+    * Marie, Daniel Men's Haircut used to be closed for afternoon, but temporarily opened. (2023-05-11~2023-05-12)
+    * Song Yi Women's Haircut used to be closed completely, but but temporarily opened. (2023-05-11~2023-05-12)
+* Research request
+    * Collect Credit Card info and charge if no-show, else on-site payment
+
+## Security Deposit
+1. Payment 10% or 다 받는 방법
+2. Credit Card info ⇒ 호텔처머 이 방법이 좀더 끌림
