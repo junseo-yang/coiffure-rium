@@ -217,3 +217,23 @@ https://easy-appointments.net/extension-paypal-example/
 ## Security Deposit
 1. Payment 10% or 다 받는 방법
 2. Credit Card info ⇒ 호텔처머 이 방법이 좀더 끌림
+
+## 2023-05-20 Research
+1. 48시간 전까지만 예약 가능한걸로 되야하고 
+2. 24시간 전에 자동 리마인더 메일과 문자가 되야함
+
+## 2023-05-20 Todo
+1. Service-Connection Form 
+    1. Service Fee ($)
+    2. Deposit ($)
+    3. Duration (min)
+    4. Date and Time
+    5. Included?
+    6. Notes
+2. Twillo 
+    1. Virtual number $1.15 monthly fee
+    2. To port your number, you need to upgrade
+    3. 매장번호로 문자 보내려면 Twilio에서 Porting이란걸 해야되네요 
+        https://support.twilio.com/hc/en-us/articles/223179348-Porting-a-Phone-Number-to-Twilio
+3. What if we "Cancel" appointment when Paypal payment already went through? 
+    1. https://easy-appointments.net/support/does-cancelled-booking-and-rebooking-result-in-a-paypalstripe-refund/
