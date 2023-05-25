@@ -237,3 +237,22 @@ https://easy-appointments.net/extension-paypal-example/
         https://support.twilio.com/hc/en-us/articles/223179348-Porting-a-Phone-Number-to-Twilio
 3. What if we "Cancel" appointment when Paypal payment already went through? 
     1. https://easy-appointments.net/support/does-cancelled-booking-and-rebooking-result-in-a-paypalstripe-refund/
+
+## 2023-05-24 Update
+1. Women's Haircut with Marie	60mins 
+2. Men's Haircut with Marie     30mins
+3. Pop up 2023-05-24~2023-07-31
+    * June 1st 부터 남자헤어컷 40$로 가격인상
+    * June 1st 부터 secutiry deposit system 시작 ->
+    * no show, last minute cancellation 때문에 비지니스 운영에 어려움이 있었음.
+    * 48 시간 이전에 취소할 시 디파짓은 환불됨. 
+    * 48 시간 이전 예약변경의 경우 디파짓은 다음 예약으로 trasfer
+4. Updates
+    * 18:00 평일 여자컷트 라스트 어포인먼트 (지금은 18:30 에도 가능하게 되어있음 1시간 소요 되는 서비스 이므로 17:00 closing 할 수 있게 하고싶음) ✅
+    * 지금은 online에서 지불할 경우, 지금은 전체금액 payment 가능하게 되어있던데 나중에 변경할 예정? 많이들 헷갈려 하더라고 ✅
+    * Songyi 아래 목록 서비스 다 열어주세요! -botox treatment, women's root bleach without toner, woman's root bleach with toner, women's root color, women's bleach and color, women's regular color, men's bleach and color, men's regular color, women's wash and blow Dry/styling, Women's Bangcut, Kid's girl Haircut, Kid's Boy Hair cut, Women's haircut with Songyi ✅
+    * color service 의 경우, 헤어컷을 따로 추가하고 싶으면 시간추가 30-40가 필요한데, 이부분을 서비스에서 선택할때 어떻게 해야할지 의논하고 싶어. 중복선택이 안된다면 추가로 시간을 늘릴 수 있게 선택하는 방법이 있을지? ✅
+### 2023-05-24 Answer
+1. Women's Haircut with Daniel/Marie 현재 마지막으로 선택 가능한 슬롯이 16:00~17:00인데 18:30분에도 예약가능하다는건 어떤 의미실까요? 
+2. 나중에 ServiceFee를 Desposit 금액으로 설정해서 Deposit만 Online Payment로 받을것같습니다. e.g., Women's Bang Perm / Service Fee Total $90 / Deposit $30(online) / OnSite Payment $60
+3. Colour Service의 경우에는 Women's Regular Color and Haircut과 Women's Regular Color (Haircut not included) 서비스를 따로 만들어야 할 것 같습니다. 현재 웹사이트가 지원하는 기능에는 추가시간을 넣는 기능이 없습니다.
