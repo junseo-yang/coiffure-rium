@@ -256,3 +256,12 @@ https://easy-appointments.net/extension-paypal-example/
 1. Women's Haircut with Daniel/Marie 현재 마지막으로 선택 가능한 슬롯이 16:00~17:00인데 18:30분에도 예약가능하다는건 어떤 의미실까요? 
 2. 나중에 ServiceFee를 Desposit 금액으로 설정해서 Deposit만 Online Payment로 받을것같습니다. e.g., Women's Bang Perm / Service Fee Total $90 / Deposit $30(online) / OnSite Payment $60
 3. Colour Service의 경우에는 Women's Regular Color and Haircut과 Women's Regular Color (Haircut not included) 서비스를 따로 만들어야 할 것 같습니다. 현재 웹사이트가 지원하는 기능에는 추가시간을 넣는 기능이 없습니다.
+
+### 2023-05-30 Update
+1. Deposit System
+2. 24hrs notification Email/문서서비스 Enable
+3. Checkbox when checkout 
+
+### 2023-06-01 Update
+1. Google Docs 도입
+2. Deposit System 도입
