@@ -265,3 +265,103 @@ https://easy-appointments.net/extension-paypal-example/
 ### 2023-06-01 Update
 1. Google Docs 도입
 2. Deposit System 도입
+
+### gcloud
+* `rails new rium-salon-rails-poc --minimal --skip-git --skip-keeps --skip-action-mailer --skip-action-mailbox --skip-action-text --skip-active-record --skip-active-job --skip-active-storage  --skip-action-cable --skip-asset-pipeline --skip-javascript --skip-hotwire --skip-jbuilder --skip-test --skip-system-test --skip-bootsnap --no-rc`
+* Add `/` path in `route.rb`
+#### MongoDB
+* https://www.mongodb.com/docs/mongoid/7.1/tutorials/getting-started-rails/#add-mongoid
+* `bin/rails g scaffold Post title:string body:text`
+
+### Troubleshoot
+#### MongoDB
+* dotenv
+    * https://www.akshaykhot.com/managing-environment-variables-in-rails/
+    * https://www.mongodb.com/docs/mongoid/master/reference/configuration/#erb-preprocessing
+    * https://github.com/bkeepers/dotenv
+* user is not allowed to do action [dropDatabase] on [post.]
+    * https://stackoverflow.com/questions/46649390/mongoerror-user-is-not-allowed-to-do-action
+* env var in AppEngine
+    * https://stackoverflow.com/questions/74480546/how-to-set-and-view-environment-variables-google-app-engine
+* Unremitted params with array
+      * `params.require(:service_staff).permit(:staff_id, :service_id,:start_date, :end_date, :start_time, :end_time, :status, :days_of_week => [])`
+      * or
+      * `params.require(:service_staff).permit(:staff_id, :service_id, { :days_of_week => [] }, :start_date, :end_date, :start_time, :end_time, :status)`
+
+
+### Rails
+* Show employee_name instead of employee_id
+    * https://www.theodinproject.com/lessons/ruby-on-rails-advanced-forms
+
+### DB Fields
+* Staff
+    * id
+    * name
+    * email
+* Service
+    * id
+    * name
+    * duration
+* ServicesStaff (ServiceOfferedByEmployee)
+    * id
+    * service_id
+    * staff_id
+    * days_of_week
+    * start_date
+    * end_date
+    * start_time
+    * end_time
+    * status
+* Vacation
+    * id
+    * name
+    * staff_id: array
+    * start
+    * end
+
+### Challenges
+* One time on/off
+* EmployeeServices are too many to handle
+* 
+
+### Steps
+1. Select Services
+    1. Get duration
+2. Select Staff
+    1. Get Staff
+    2. Get ServiceStaff
+3. Select Dates
+    1. 
+
+### Commands
+#### Service
+* `bin/rails g scaffold Service name:string duration:integer`
+#### Staff
+* `bin/rails g scaffold Staff name:string email:string`
+#### ServiceStaff
+* `bin/rails g scaffold ServiceStaff staff:belongs_to service:belongs_to days_of_week:array start_date:date end_date:date start_time:time end_time:time status:string`
+
+#### Vacation
+* `bin/rails g scaffold Vacation name:string staff:belongs_to start:datetime end:datetime`
+
+#### Appointment
+* `bin/rails g scaffold Appointment name:string email:string phone:string special_request:text service_staff:belongs_to`
+
+#### Custom View/Endpoint
+* https://medium.com/@jelenast/ruby-on-rails-custom-routes-and-namespace-b9ce857e3625
+
+#### Simple Form
+* https://api.rubyonrails.org/v5.2/classes/ActionView/Helpers/FormHelper.html#method-i-form_for
+* https://stackoverflow.com/questions/33349306/rails-4-form-without-model-and-database
+
+#### Multiple Steps Form
+* https://betterprogramming.pub/multistep-form-wizard-rails-recipes-f87f2e5d84e5
+* https://www.codewithjason.com/rails-multi-step-forms/
+* https://nicolasblanco.medium.com/developing-a-wizard-or-multi-steps-forms-in-rails-d2f3b7c692ce
+
+### Todo
+* Fix: Edit form does not select the previous value
+
+### Nice, Nice, Nice, and Nice to have
+1. Create Vacation with multiple workers
+2. Staff MBTI
